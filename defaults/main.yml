@@ -1,0 +1,4 @@
+---
+# defaults file for openshift-networkbridge
+openshift_networkbridge_bridge_interface: 
+openshift_networkbridge_namespace:
