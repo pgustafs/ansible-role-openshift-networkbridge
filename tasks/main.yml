@@ -17,4 +17,4 @@
           cniVersion: 0.3.1
           name: bridge-{{ openshift_networkbridge_bridge_interface }}
           type: cnv-bridge
-          bridge: {{ openshift_networkbridge_bridge_interface }}
+          bridge: "{{ openshift_networkbridge_bridge_interface }}"
