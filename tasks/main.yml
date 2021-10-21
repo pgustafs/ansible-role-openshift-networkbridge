@@ -18,4 +18,3 @@
           name: "bridge-{{ openshift_networkbridge_bridge_interface }}"
           type: "cnv-bridge"
           bridge: "{{ openshift_networkbridge_bridge_interface }}"
-          vlan:
